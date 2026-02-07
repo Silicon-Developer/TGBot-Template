@@ -1,0 +1,5 @@
+API_HASH = ""
+API_ID = 1234
+BOT_TOKEN = "xyz"
+ADMINS = 1235
+MONGO_DB = ''
