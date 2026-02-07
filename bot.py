@@ -19,6 +19,7 @@ class Bot(Client):
         print(f"{me.first_name} Iꜱ Sᴛᴀʀᴛᴇᴅ.....✨️")
         for i in ADMINS:
             await self.send_message(i, f"**__{me.first_name}  Iꜱ Sᴛᴀʀᴛᴇᴅ.....✨️__**")
+
     async def stop(self, *args): 
         await super().stop()
         print("Stopped.....")
